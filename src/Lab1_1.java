@@ -25,6 +25,7 @@ public class Lab1_1 {
         }
         else if (d <= a && d <= b && d<= c) {
             System.out.println("Наименьшее число: " +d);
+		in.close();
         }
     } catch (InputMismatchException e) {
         System.out.println("Ошибка.Введите целое число");
